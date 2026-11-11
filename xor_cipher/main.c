@@ -64,6 +64,7 @@ int main(void) {
 
     FILE *res_file = fopen("encrypted.txt", "w");
     for (i = 0; i < size; ++i) {
+        // %x expects unsigned int; %02x writes at least two hex digits, padded with zero.
         fprintf(res_file, "%02x", (unsigned int)encrypted[i]);
     }
     fclose(res_file);
