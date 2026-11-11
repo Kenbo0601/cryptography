@@ -1,0 +1,21 @@
+XOR cipher is a symmetric encryption algorithm that uses XOR bitwise operation. 
+
+
+XOR truth table 
+
+A | B | Outout (Y = A xor B) 
+------------------------------
+0 | 0 | 0     
+------------------------------
+0 | 1 | 1 
+------------------------------
+1 | 0 | 1 
+------------------------------
+1 | 1 | 0 
+
+
+Key rules: 
+ - different inputs -> output is 1
+ - identical inputs -> output is 0
+
+
