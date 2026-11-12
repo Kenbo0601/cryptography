@@ -1,0 +1,11 @@
+# Sha256 - cryptographic hash function that converts any input into a unique, fixed-size 256-bit (32-byte) string. 
+
+# Algorithms
+1. padding: extend the input to a multiple of 512 bits
+2. block parsing: split the padded input into 512-bit blocks
+3. message schedule: expand 16 words into 64 words
+4. compression function: perform 64 rounds of bitwise operations
+5. update hash state: combine the compression result with the previous state
+6. final sha-256 hash: 256 bits = 32 bytes = 64 hex digits 
+
+
